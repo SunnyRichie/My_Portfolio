@@ -5,6 +5,7 @@ import project4_img from '../assets/learning-thumbnail.JPG'
 import project5_img from '../assets/book-thumbnail.JPG'
 import project6_img from '../assets/quiz-thumb.JPG'
 import project7_img from '../assets/todo-thumnail.JPG'
+import project8_img from '../assets/weather-thumnail.JPG'
 
 const mywork_data = [
     {
@@ -41,6 +42,11 @@ const mywork_data = [
         w_no:7,
         w_name:"Web design",
         w_img:project7_img
+    },
+    {
+        w_no:8,
+        w_name:"Web design",
+        w_img:project8_img
     },
 ]
  

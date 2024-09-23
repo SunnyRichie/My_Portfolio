@@ -5,7 +5,9 @@
   margin: 20px 170px;
   justify-content: space-between;
 }
-
+.underline{
+  width:40px;
+}
 /* Navigation Menu */
 .nav-menu {
   display: flex;
@@ -17,7 +19,7 @@
 .logo-name{
   font-size: 60px;
   font-weight: 700;
-  background: linear-gradient(270deg, #df8908 50.14%, #b415ff 90.25%);
+  background: linear-gradient(270deg, #df8908 50.14%, #CB0D39 90.25%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -26,7 +28,7 @@
 .nav-connect {
   padding: 20px 40px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #8923e1 102.06%);
+  background: linear-gradient(267deg, #da7c25 0.36%, #CB0D39 102.06%);
   cursor: pointer;
   font-size: 22px;
   transition: 0.5s;

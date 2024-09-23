@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './mywork.css';
-import theme_pattern from '../../assets/theme_pattern.svg';
+import theme_pattern from '../../assets/theme_pattern.PNG';
 import mywork_data from '../../assets/mywork_data';
 import arrow_icon from '../../assets/arrow_icon.svg';
 
@@ -21,7 +21,7 @@ const Mywork = () => {
     <div id='mywork' className='mywork'>
       <div className="mywork-title">
         <h1>My latest work</h1>
-        <img src={theme_pattern} alt="" />
+        <img src={theme_pattern} className='theme-img' alt="" />
       </div>
       <div className="mywork-container">
         {mywork_data.slice(0, visibleWorks).map((work, index) => {

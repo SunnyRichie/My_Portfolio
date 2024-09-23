@@ -1,0 +1,12 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height to center the loader */
+  width: 100vw;  /* Full viewport width */
+  background: #161513; /* White background for the loader */
+  position: fixed; /* Ensures it covers the whole screen */
+  top: 0;
+  left: 0;
+  z-index: 9999; /* Ensures the loader stays on top of other content */
+}

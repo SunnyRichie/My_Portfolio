@@ -11,7 +11,7 @@
 .logo-name{
   font-size: 60px;
   font-weight: 700;
-  background: linear-gradient(270deg, #df8908 50.14%, #b415ff 90.25%);
+  background: linear-gradient(270deg, #df8908 50.14%, #CB0D39 90.25%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -46,7 +46,7 @@ max-width: 400px;
   font-size: 20px;
   padding: 22px 50px;
   border-radius: 50px;
-  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  background: linear-gradient(264deg, #df8908 -5.09%, #CB0D39 106.28%);
   cursor: pointer;
   transition: 0.5s;
 }

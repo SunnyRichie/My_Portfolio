@@ -26,6 +26,11 @@
   gap: 40px;
 
 }
+
+.theme-img{
+  color:#CB0D39;
+  font-size: 1rem;
+}
 .mywork-container img{
   box-sizing: border-box;
   width: 419px;
@@ -35,7 +40,7 @@
 }
 .mywork-container img:hover{
   transform: scale(1.10);
-  border:4px solid #ff00ff;
+  border:4px solid #CB0D39;
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -55,6 +60,7 @@
 .mywork-showmore:hover{
   gap: 30px;
   transition: 0.6s;
+  border-color: #CB0D39;
 }
 
 @media(max-width:768px){
