@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import theme_pattern from '../../assets/theme_pattern.PNG';
+import theme_pattern from '../../assets/theme_pattern.png';
 import profile_img from '../../assets/richie10.JPG';
 
 const About = () => {

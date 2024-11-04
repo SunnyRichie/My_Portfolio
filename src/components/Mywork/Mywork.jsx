@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './mywork.css';
-import theme_pattern from '../../assets/theme_pattern.PNG';
+import theme_pattern from '../../assets/theme_pattern.png';
 import mywork_data from '../../assets/mywork_data';
 import arrow_icon from '../../assets/arrow_icon.svg';
 
