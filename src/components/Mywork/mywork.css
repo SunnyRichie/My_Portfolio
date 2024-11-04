@@ -1,96 +1,186 @@
-.mywork{
+.mywork {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 80px;
   margin: 80px 170px;
+  text-align: center;
+  padding: 2rem;
 }
-.mywork-title{
+
+.mywork-title {
   position: relative;
+  margin-bottom: 2rem;
 }
-.mywork-title h1{
+
+.mywork-title h1 {
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
 }
-.mywork-title img{
+
+.mywork-title img {
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -1;
-}
-.mywork-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
-
+  width: 130px;
+  margin-right: -20px;
 }
 
-.theme-img{
-  color:#CB0D39;
+.theme-img {
+  color: #CB0D39;
   font-size: 1rem;
 }
-.mywork-container img{
-  box-sizing: border-box;
-  width: 419px;
-  height: 280px;
-  transition: 0.3s;
+
+.mywork-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.work-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.work-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
   cursor: pointer;
 }
-.mywork-container img:hover{
-  transform: scale(1.10);
-  border:4px solid #CB0D39;
+
+.work-item img:hover {
+  transform: scale(1.1);
+  border: 4px solid #CB0D39;
   border-radius: 10px;
-  transition: 0.3s;
 }
-.mywork-showmore{
-  gap: 15px;
+
+.work-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 1rem;
+  text-align: center;
+}
+
+.work-item:hover .work-overlay {
+  opacity: 1;
+}
+
+.mywork-showmore {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   border: 2px solid white;
   border-radius: 50px;
-  padding: 30px 60px;
+  padding: 20px 40px;
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 80px;
   transition: 0.6s;
   cursor: pointer;
-
 }
-.mywork-showmore:hover{
-  gap: 30px;
-  transition: 0.6s;
+
+.mywork-showmore:hover {
   border-color: #CB0D39;
+  gap: 30px;
 }
 
-@media(max-width:768px){
-  .mywork{
-    gap:50px;
-    margin:50px 70px;
-    align-items:start;
-  }
-  .mywork-title h1{
-    padding:0;
-    font-size:50px;
-    font-weight:600;
-  }
-  .mywork-title img{
-    width:130px;
-    margin-right:-20px;
-  }
-  .mywork-container{
-    grid-template-columns:1fr 1fr;
-    gap:30px;
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
 
+.arrow-icon.rotate {
+  transform: rotate(180deg); /* Rotate arrow when expanded */
+}
+
+/* Button container to arrange buttons horizontally */
+.work-overlay .button-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* GitHub and Live Demo buttons */
+.work-overlay .button-container .btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GitHub Button */
+.work-overlay .button-container .btn-github {
+ 
+border-radius: 50px;
+  background: linear-gradient(264deg,#df8908 -5.09%, #CB0D39 106.28%);
+  cursor: pointer;
+}
+
+.work-overlay .button-container .btn-github:hover {
+  border:2px solid #fff;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Live Demo Button */
+.work-overlay .button-container .btn-live {
+  background-color: #CB0D39;
+  color: #fff;
+  border-radius: 50px;
+  border:2px solid #fff;
+  cursor: pointer;
+}
+
+.work-overlay .button-container .btn-live:hover {
+  border-color: #CB0D39;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(203, 13, 57, 0.3);
+}
+
+
+@media (max-width: 768px) {
+  .mywork {
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: start;
   }
-  .mywork-container img{
-    width:100%;
-    height:100%;
+
+  .mywork-title h1 {
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
   }
-  .mywork-showmore{
-    padding:20px 40px;
-    font-size:18px;
-    margin:50px auto;
-    cursor:pointer;
+
+  .mywork-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .mywork-showmore {
+    padding: 20px 40px;
+    font-size: 18px;
+    margin: 50px auto;
   }
 }
