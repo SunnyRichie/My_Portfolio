@@ -11,7 +11,6 @@
 
 .mywork-title {
   position: relative;
-  margin-bottom: 2rem;
 }
 
 .mywork-title h1 {
@@ -25,8 +24,6 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-  width: 130px;
-  margin-right: -20px;
 }
 
 .theme-img {

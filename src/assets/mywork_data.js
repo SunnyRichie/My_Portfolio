@@ -15,8 +15,8 @@ const mywork_data = [
         title: "Fitness Tracker",
         description: "A fitness tracking app that allows users to log workouts, track progress, and set goals.",
         techStack: ["HTML", "CSS", " Javascript"],
-        githubUrl: "https://github.com/username/fitness-tracker",
-        liveDemoUrl: "https://fitness-tracker-demo.com"
+        githubUrl: "https://github.com/SunnyRichie/Fitness-World.git",
+        liveDemoUrl: "https://fitness-world-indol.vercel.app/"
     },
     {
         w_no: 2,
@@ -35,8 +35,8 @@ const mywork_data = [
         title: "YouTube Video Player",
         description: "A YouTube clone application allowing users to search and play videos from YouTube API.",
         techStack: ["React ", "YouTube API ", "CSS"],
-        githubUrl: "https://github.com/username/youtube-clone",
-        liveDemoUrl: "https://youtube-clone-demo.com"
+        githubUrl: "https://github.com/SunnyRichie/My_Youtube_Clone.git",
+        liveDemoUrl: "https://youtube-clone-rho-ruby.vercel.app/"
     },
     {
         w_no: 4,
@@ -55,18 +55,18 @@ const mywork_data = [
         title: "Online Book Library",
         description: "A digital library app that allows users to browse, read, and review books.",
         techStack: ["HTML ", " Bootsrap", " JavaScript"],
-        githubUrl: "https://github.com/username/book-library",
-        liveDemoUrl: "https://book-library-demo.com"
+        githubUrl: "https://github.com/SunnyRichie/Books-Collection-App.git",
+        liveDemoUrl: "https://books-collection-7vz8y49rk-sunnyrichies-projects.vercel.app/"
     },
     {
         w_no: 6,
         w_name: "Quiz App",
         w_img: project6_img,
-        title: "Interactive Quiz",
+        title: "Quick IQ",
         description: "An interactive quiz application with multiple-choice questions and scoring.",
         techStack: ["JavaScript ", "HTML", " CSS"],
-        githubUrl: "https://github.com/username/quiz-app",
-        liveDemoUrl: "https://quiz-app-demo.com"
+        githubUrl: "https://github.com/SunnyRichie/Quick-IQ-App.git",
+        liveDemoUrl: "https://quick-iq-app.vercel.app/"
     },
     {
         w_no: 7,
@@ -75,8 +75,8 @@ const mywork_data = [
         title: "To-Do List Application",
         description: "A task management app where users can add, delete, and mark tasks as complete.",
         techStack: ["React ", "LocalStorage", " CSS"],
-        githubUrl: "https://github.com/username/todo-app",
-        liveDemoUrl: "https://todo-app-demo.com"
+        githubUrl: "https://github.com/SunnyRichie/To_Do_App.git",
+        liveDemoUrl: "https://to-do-app-jade-theta.vercel.app/"
     },
     {
         w_no: 8,
@@ -85,7 +85,7 @@ const mywork_data = [
         title: "Weather Forecast",
         description: "A weather app displaying real-time weather information using OpenWeather API.",
         techStack: ["JavaScript ", "OpenWeather API", " CSS"],
-        githubUrl: "https://github.com/username/weather-app",
+        githubUrl: "https://github.com/SunnyRichie/Weather_App.git",
         liveDemoUrl: "https://weather-app-demo.com"
     }
 ];
