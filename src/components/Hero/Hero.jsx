@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
-import profile_img from '../../assets/richie8.jpg';
-import resume from '../../assets/resume.pdf'; // Make sure to replace with your actual resume file path
+import profile_img from '../../assets/richie8.JPG';
+import resume from '../../assets/resume.pdf'; 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
       <img className='profile-img' src={profile_img} alt="Sunkanmi Richard" />
       <h1><span>I'm Sunkanmi Richard,</span> frontend developer based in Nigeria.</h1>
       <p>
-        I am a passionate frontend developer based in Lagos, Nigeria, dedicated to crafting intuitive and engaging web experiences. I am passionate about developing dynamic applications, having a keen eye for design and a commitment to delivering high-quality solutions that meet user needs.
+        I am a passionate frontend developer, dedicated to crafting intuitive and engaging web experiences. I am passionate about developing dynamic applications, having a keen eye for design and a commitment to delivering high-quality solutions that meet user needs.
       </p>
       <div className="hero-action">
         <div className="hero-connect"> 
